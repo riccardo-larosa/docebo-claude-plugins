@@ -10,25 +10,15 @@ A private plugin marketplace for Claude Desktop with Docebo-specific plugins.
 
 ## Setup
 
-### 1. Push this repo to GitHub (private)
-
-```bash
-cd docebo-claude-plugins
-git init
-git add .
-git commit -m "Initial marketplace with docebo-lms plugin"
-gh repo create docebo/claude-plugins --private --source=. --push
-```
-
-### 2. Users add the marketplace
+### 1. Users add the marketplace
 
 In Claude Desktop, run:
 
 ```
-/plugin marketplace add docebo/claude-plugins
+/plugin marketplace add riccardo-larosa/docebo-claude-plugins
 ```
 
-### 3. Users install a plugin
+### 2. Users install a plugin
 
 ```
 /plugin install docebo-lms@docebo-marketplace
@@ -37,7 +27,6 @@ In Claude Desktop, run:
 ## Requirements
 
 - Users must have the **Docebo MCP connector** enabled in Claude Desktop
-- The repo must remain **private** (company policy)
 
 ## Adding More Plugins
 
