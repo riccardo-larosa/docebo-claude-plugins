@@ -1,0 +1,18 @@
+{
+  "name": "docebo-marketplace",
+  "owner": {
+    "name": "Docebo",
+    "email": "riccardo.larosa@docebo.com"
+  },
+  "metadata": {
+    "description": "Docebo internal plugins for Claude Desktop"
+  },
+  "plugins": [
+    {
+      "name": "docebo-lms",
+      "source": "./plugins/docebo-lms",
+      "description": "Manage Docebo LMS — enroll users, track progress, generate reports, search courses",
+      "version": "0.1.0"
+    }
+  ]
+}

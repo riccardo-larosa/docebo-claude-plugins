@@ -1,0 +1,9 @@
+{
+  "name": "docebo-lms",
+  "version": "0.1.0",
+  "description": "Manage Docebo LMS — enroll users, track learner progress, generate team reports, and search courses",
+  "author": {
+    "name": "Riccardo La Rosa"
+  },
+  "keywords": ["docebo", "lms", "learning", "training", "enrollment", "courses"]
+}
