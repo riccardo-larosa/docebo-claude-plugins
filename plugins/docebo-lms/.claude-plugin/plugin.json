@@ -1,9 +1,9 @@
 {
   "name": "docebo-lms",
-  "version": "0.1.0",
-  "description": "Manage Docebo LMS — enroll users, track learner progress, generate team reports, and search courses",
+  "version": "0.2.0",
+  "description": "Docebo LMS plugin for L&D professionals — manage training programs, diagnose engagement issues, design learning paths, and track learner progress with built-in L&D best practices",
   "author": {
     "name": "Riccardo La Rosa"
   },
-  "keywords": ["docebo", "lms", "learning", "training", "enrollment", "courses"]
+  "keywords": ["docebo", "lms", "learning", "training", "enrollment", "courses", "L&D", "instructional design", "completion", "engagement"]
 }

@@ -1,28 +1,23 @@
 # Docebo LMS Plugin
 
-Manage the Docebo learning platform from Claude Desktop — enroll users, track learner progress, generate team training reports, and search courses.
+Manage Docebo LMS with built-in L&D expertise. This plugin doesn't just connect to the Docebo API — it understands learning and development best practices, training program design, and learner engagement patterns.
 
-## Requirements
+## Skills
 
-This plugin wraps the Docebo MCP connector. You must have the Docebo connector enabled in your Claude Desktop environment.
+- **ld-foundations** — L&D domain knowledge: completion benchmarks, Kirkpatrick model, adult learning principles, course types, assessment design, engagement patterns
+- **program-designer** — Design training programs from a business goal through needs analysis, learning objectives, program structure, and measurement
+- **completion-diagnostics** — Diagnose and fix low completion/engagement using data from Docebo and L&D diagnostic frameworks
+- **docebo-lms-guide** — Docebo MCP tool routing and operational patterns
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `/enroll [user] [course]` | Enroll a user in a course by name |
-| `/learner-dashboard [user]` | View a learner's full training progress |
-| `/team-report [manager] [course]` | Generate a team training report |
-| `/course-search [keyword]` | Search for courses by keyword |
+- `/design-program [topic]` — Interactive training program design
+- `/diagnose-completion [course or "my team"]` — Analyze and fix low training engagement
+- `/team-report [manager] [course]` — Team training report with benchmarks and health flags
+- `/learner-dashboard [user]` — Individual learner progress with contextual insights
+- `/enroll [user] [course]` — Enroll a user in a course
+- `/course-search [keyword]` — Search available courses
 
-## Skill
+## Requirements
 
-The **docebo-lms-guide** skill activates automatically when you ask about Docebo, courses, enrollments, or training management. It provides Claude with domain knowledge about all available Docebo tools and best practices for using them.
-
-## Usage Examples
-
-- `/enroll jane.doe@company.com Compliance Training 2026`
-- `/learner-dashboard john.smith`
-- `/team-report` (uses your own profile as manager)
-- `/course-search onboarding`
-- "How many courses has Jane completed?" (triggers the skill automatically)
+Requires the Docebo MCP connector to be connected for data access and enrollment operations.
